@@ -9,9 +9,9 @@ ORM: 对象关系映射
 + 数据表字段对应对象的属性
 + 数据表的操作对应对象方法
 
-### 1. 安装sequlize
+### 1. 安装sequelize
 ```
-npm i mysql2 sequlize
+npm i mysql2 sequelize
 ```
 
 ### 2. 连接数据库
