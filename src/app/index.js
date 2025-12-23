@@ -1,8 +1,11 @@
 const Koa = require('koa')
+const { koaBody } = require('koa-body')
 
 const userRouter = require('../router/user')
 
 const app = new Koa()
+
+app.use(koaBody())
 
 app.use(userRouter.routes())
 

@@ -8,7 +8,7 @@ router.get('/', (ctx, next) => {
   ctx.body = 'Users '
 })
 
-router.get('/register', register)
+router.post('/register', register)
 router.post('/login', login)
 
 module.exports = router
